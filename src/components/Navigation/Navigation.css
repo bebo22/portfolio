@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 60px;
+    padding: 10px 0;
+}
+
+.navigation__item {
+    font-size: 14px;
+    color: var(--black);
+    text-decoration: unset;
+}
+
+.navigation__item:not(:first-child) {
+    margin-left: 10px;
+}
