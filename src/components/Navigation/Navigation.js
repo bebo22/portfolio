@@ -10,6 +10,12 @@ function Navigation() {
             <a className="navigation__item underline__animation" 
             title="Experience"
             href="#experience">Experience</a>
+            <a className="navigation__item underline__animation github-icon" 
+            title="Github"
+            target="_blank"
+            href="https://github.com/bebo22">
+                Find me in Github
+            </a>
         </div>
     );
 }
