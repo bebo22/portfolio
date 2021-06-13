@@ -20,3 +20,11 @@
     justify-content: center;
     margin-top: 26px;
 }
+
+.experience--list__element img {
+    max-height: 90px;
+}
+
+.experience--list__element:nth-child(n + 6) {
+    margin-top: 16px;
+}

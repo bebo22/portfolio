@@ -7,12 +7,25 @@
 }
 
 .navigation__item {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: var(--font-weight-medium);
     color: var(--third);
     text-decoration: unset;
 }
 
 .navigation__item:not(:first-child) {
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.navigation__item.github-icon::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../../assets/github-logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
 }
