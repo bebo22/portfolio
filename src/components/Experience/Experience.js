@@ -36,8 +36,13 @@ function Experience() {
                     </ScrollAnimation>
                 </li>
                 <li className="experience--list__element">
-                    <ScrollAnimation animateOnce={true} delay={650} animateIn="fadeIn">
+                    <ScrollAnimation animateOnce={true} delay={600} animateIn="fadeIn">
                         <img alt="sass" src={require('../../assets/sass-logo.svg').default} />
+                    </ScrollAnimation>
+                </li>
+                <li className="experience--list__element">
+                    <ScrollAnimation animateOnce={true} delay={670} animateIn="fadeIn">
+                        <img alt="Symfony" src={require('../../assets/symfony-logo.svg').default} />
                     </ScrollAnimation>
                 </li>
             </ul>
