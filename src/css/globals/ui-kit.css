@@ -83,6 +83,50 @@ blockquote {
     quotes: "“" "”" "‘" "’";
 }
 
+textarea,
+input {
+    border: 1px solid var(--secondary);
+    padding-left: 10px;
+    min-height: 40px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-medium);
+    font-size: 15px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: var(--black);
+    font-weight: var(--font-weight-medium);
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+textarea {
+    padding-top: 20px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    color: var(--white);
+    font-weight: var(--font-weight-normal);
+    font-family: var(--font-family);
+    background-color: var(--secondary);
+    border: 0;
+    border-radius: 0;
+    min-height: 40px;
+    min-width: 200px;
+    transition: background-color .3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--third);
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -91,5 +135,9 @@ blockquote {
     color: var(--third);
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
+.visually-hidden {
+    display: none;
+}
