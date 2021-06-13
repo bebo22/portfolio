@@ -1,3 +1,12 @@
+.animated {
+    transform: translateY(100px);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.animated.fadeIn {
+    transform: translateY(0);
+}
+
 .underline__animation:hover {
     animation-name: underline-animation;
     animation-duration: 1s;

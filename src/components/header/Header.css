@@ -1,5 +1,10 @@
 .header__items {
-    background-color: #ffffff91;
+    background-color: var(--white);
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, .10);
     position: relative;
     z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }

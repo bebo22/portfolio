@@ -4,7 +4,7 @@ import './Hero.css';
 function Hero() {
     return (
         <div className="hero">
-            <h3 className="hero__title">Hi, I am a Bolivar, I am a frontend developer</h3>
+            <h2 className="hero__title">Hi, my name is Bolivar, and I am a frontend developer</h2>
         </div>
     );
 }

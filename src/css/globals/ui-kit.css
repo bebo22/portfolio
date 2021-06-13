@@ -2,25 +2,28 @@ body,
 html {
     font-size: 16px;
     font-family: var(--font-family);
+    scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
+    font-family: var(--font-family);
 }
 
 h1 {
     font-size: 45px;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
 }
 
 h2 {
     font-size: 35px;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-medium);
 }
 
 h3 {
     font-size: 28px;
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-medium);
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 1024px) {
@@ -35,5 +38,30 @@ h3 {
     h3 {
         font-size: 45px;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: var(--third);
+    font-size: 16px;
+    line-height: 1.438;
+    font-weight: var(--font-weight-light);
+    font-family: var(--font-family);
+    letter-spacing: -0.25px;
+    margin-top: 5px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.section-title {
+    color: var(--third);
+    text-align: center;
+    margin-bottom: 10px;
 }
 

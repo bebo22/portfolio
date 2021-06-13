@@ -7,8 +7,9 @@
 }
 
 .navigation__item {
-    font-size: 14px;
-    color: var(--black);
+    font-size: 22px;
+    font-weight: var(--font-weight-medium);
+    color: var(--third);
     text-decoration: unset;
 }
 
