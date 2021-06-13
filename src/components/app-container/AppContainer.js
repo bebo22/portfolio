@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../header/Header';
 import Content from '../Content/Content';
+import Footer from '../Footer/Footer';
 import './AppContainer.css';
 
 function AppContainer() {
@@ -12,6 +13,7 @@ function AppContainer() {
             <main className="main-content">
                 <Content />
             </main>
+            <Footer />
       </div>
     )
 }

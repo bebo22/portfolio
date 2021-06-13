@@ -17,6 +17,11 @@
     margin-left: 20px;
 }
 
+.navigation__item.github-icon {
+    display: flex;
+    align-items: center;
+}
+
 .navigation__item.github-icon::before {
     content: '';
     display: inline-block;
@@ -27,5 +32,5 @@
     height: 20px;
     margin-right: 10px;
     position: relative;
-    top: 2px;
+    bottom: 2px;
 }
