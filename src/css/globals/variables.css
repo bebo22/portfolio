@@ -1,0 +1,15 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --primary: #22659c;
+    --secondary: #3193E5;
+    --white: #ffffff;
+    --black: #000000;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --screen-lg: 1400px;
+    --screen-md: 1024px;
+    --screen-sm: 900px;
+    --screen-mobile: 768px; 
+}
