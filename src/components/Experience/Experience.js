@@ -4,7 +4,7 @@ import './Experience.css';
 
 function Experience() {
     return (
-        <div id="experience" className="experience">
+        <section id="experience" className="experience">
             <h3 className="section-title">Experience</h3>
             <p className="container text-align-center">
                 Technologies that i have worked with before.
@@ -46,7 +46,7 @@ function Experience() {
                     </ScrollAnimation>
                 </li>
             </ul>
-        </div>
+        </section>
     );
 }
 

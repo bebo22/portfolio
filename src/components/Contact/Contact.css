@@ -1,0 +1,30 @@
+.contact {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.contact .contact--form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contact .contact--form input[name="email"],
+.contact .contact--form input[name="full-name"] {
+    flex: 0 0 48%;
+}
+
+.contact .contact--form textarea {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact .contact--form input[type="submit"] {
+    flex: 0 0 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}

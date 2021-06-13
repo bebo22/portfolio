@@ -130,6 +130,8 @@ footer {
 
     .footer--disclaimer {
         justify-content: space-between;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 }
 

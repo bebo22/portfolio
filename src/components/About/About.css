@@ -1,3 +1,7 @@
+.about .section-title {
+    margin-top: 45px;
+}
+
 .about-summary {
     color: var(--third);
     font-size: 16px;

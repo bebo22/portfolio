@@ -2,15 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
     min-height: 60px;
     padding: 10px 0;
 }
 
 .navigation__item {
-    font-size: 16px;
+    font-size: 12px;
+    cursor: pointer;
     font-weight: var(--font-weight-medium);
     color: var(--third);
     text-decoration: unset;
+}
+
+@media (min-width: 768px) {
+    .navigation__item {
+        font-size: 16px;
+    }
 }
 
 .navigation__item:not(:first-child) {
