@@ -1,7 +1,7 @@
 .hero {
-  background-color: #F5F7FB;
-  padding-top: 84px;
-  padding-bottom: 32px;
+  background-color: var(--light-gray);
+  padding-top: 6.5rem;
+  padding-bottom: 2rem;
 }
 
 .hero article {
@@ -10,17 +10,46 @@
 
 .hero__inner {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 422px);
+  grid-template-columns: 1fr minmax(0, 26.375rem);
   column-gap: 2rem;
   align-items: center;
 }
 
 .hero__info {
   display: grid;
-  grid-template-columns: 177px 1fr;
+  grid-template-columns: 11.063rem 1fr;
   column-gap: 2rem;
 }
 
 .hero__info h1 {
   margin-bottom: 1.625rem;
+}
+
+@media only screen and (max-width: 67.5rem) {
+  .hero {
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+  }
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+  .hero__image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .hero {
+    padding-top: 8.5rem;
+    padding-bottom: 4rem;
+  }
+  .hero__info {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+  }
+
+  .hero__info section {
+    text-align: center;
+  }
 }
