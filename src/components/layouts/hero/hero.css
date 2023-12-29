@@ -1,0 +1,26 @@
+.hero {
+  background-color: #F5F7FB;
+  padding-top: 84px;
+  padding-bottom: 32px;
+}
+
+.hero article {
+  color: var(--primary-blue);
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 422px);
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.hero__info {
+  display: grid;
+  grid-template-columns: 177px 1fr;
+  column-gap: 2rem;
+}
+
+.hero__info h1 {
+  margin-bottom: 1.625rem;
+}

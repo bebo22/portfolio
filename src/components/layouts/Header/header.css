@@ -1,3 +1,8 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 .header__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,6 +36,16 @@
   line-height: 2rem;
   letter-spacing: -0.4px;
   text-decoration-line: underline;
+}
+
+.header__container svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header__contact svg {
+  width: 1rem;
+  height: 1rem;
 }
 
 .header__contact svg path {
