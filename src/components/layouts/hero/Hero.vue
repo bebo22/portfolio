@@ -1,6 +1,3 @@
-<script>
-import './hero.css';
-</script>
 <template>
   <div class="hero">
     <section class="hero__inner container">
@@ -18,3 +15,9 @@ import './hero.css';
     </section>
   </div>
 </template>
+<script lang="ts">
+import './hero.css';
+export default {
+  name: 'Hero',
+};
+</script>
