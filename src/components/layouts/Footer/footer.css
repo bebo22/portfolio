@@ -1,0 +1,9 @@
+.footer {
+  background-color: var(--primary-blue);
+}
+
+.footer__inner {
+  color: var(--white);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
