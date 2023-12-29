@@ -5,8 +5,11 @@
         <img src="@assets/profile-picture.png" alt="Hero profile picture" loading="lazy" width="177" height="177" />
         <section>
           <h1>Welcome</h1>
-          <p class="subheading">Description about me Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient </p>
+          <p class="subheading">
+            Hello, my name is Bolivar Berrío. I am a software developer with a passion for web development,
+            and I am always looking for opportunities to grow and learn new things.
+            I've always been passionate about music and video games.
+          </p>
         </section>
       </article>
       <aside class="hero__image">
