@@ -29,6 +29,9 @@
     </div>
   </section>
 </template>
-<script>
+<script lang="ts">
 import './technologies.css';
+export default {
+  name: 'Technologies',
+};
 </script>

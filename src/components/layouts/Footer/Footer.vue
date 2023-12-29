@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
 import './footer.css';
 export default {
+  name: 'Footer',
   data() {
     return {
       currentDate: new Date().getFullYear(),
