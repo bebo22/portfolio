@@ -1,0 +1,65 @@
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  padding-top: 0.688rem;
+  padding-bottom: 0.688rem;
+}
+
+.header__title {
+  color: var(--secondary-blue);
+}
+
+.header__main-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-end;
+}
+
+.header__contact {
+  display: flex;
+  align-items: center;
+  column-gap: 0.313rem;
+  color: var(--secondary-blue);
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: var(--font-weight-medium);
+  line-height: 2rem;
+  letter-spacing: -0.4px;
+  text-decoration-line: underline;
+}
+
+.header__contact svg path {
+  fill: var(--secondary-blue);
+}
+
+.header__container svg path {
+  transition: fill .4s ease;
+}
+
+.header__container a {
+  transition: color .4s ease, text-decoration-color .4s ease;
+}
+
+.header__container a:focus,
+.header__container a:hover {
+  color: var(--primary-blue);
+  text-decoration-color: transparent;
+}
+
+.header__container a:focus svg path,
+.header__container a:hover svg path {
+  fill: var(--primary-blue);
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .header__main-nav {
+    column-gap: 1rem;
+  }
+  
+}
